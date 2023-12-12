@@ -1,0 +1,374 @@
+body {
+    /* background: url("../Assets/img.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../Assets/img-blured.jpg");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px);     */
+}
+
+.img-class {
+    display: flex;
+
+}
+
+#img-icon{
+    width: 5%;
+    height: 10%;
+    position: absolute;
+    left: 28.5%;
+    top: 9.7%;
+    border-radius: 25px;
+}
+
+#lbl-title{
+    font-family: century;
+    font-weight: 900;
+    color: black;
+    font-size: 55px;
+    position: absolute;
+    top:68px;
+    left: 35%;
+}
+
+#top-bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(147, 153, 120, 1);
+    border-radius: 17px;
+    margin-top: 0.8%;
+
+}
+
+#nav-lbl-date-style {
+    position: absolute;
+    font-weight: 800;
+    font-family: century;
+    left: 3%;
+    top: 3%;
+    color: white;
+}
+
+#nav-lbl-two-style {
+    position: absolute;
+    right: 17%;
+    top: 3.3%;
+    color: white;
+    font-weight: 600;
+}
+
+#img-user-style {
+    position: absolute;
+    right: 13%;
+    top: 2.4%;
+
+}
+
+#nav-lbl-time-style {
+    position: absolute;
+    right: 4.8%;
+    top: 3.3%;
+    color: white;
+    font-weight: 600;
+}
+
+#search-area {
+    position: absolute;
+    background-color: rgba(217, 217, 217, 1);
+    width: 654px;
+    height: 217px;
+    border-radius: 30px;
+    top: 25%;
+    left: 1%;
+}
+
+#lbl-itemcode {
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    font-size: 30px;
+    font-family: century;
+    font-weight: 700;
+
+}
+
+#txt-itemcode {
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    font-weight: 800;
+}
+
+#btn-search {
+    position: absolute;
+    top: 26.4%;
+    left: 32%;
+    border-radius: 7px;
+    font-weight: 800;
+
+}
+
+#txt-itemname {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-weight: 800;
+}
+
+#lbl-itemname {
+    position: absolute;
+    top: 33.6%;
+    left: 3%;
+    font-size: 30px;
+    font-family: century;
+    font-weight: 700;
+
+}
+
+#lbl-qty {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-size: 30px;
+    font-family: century;
+    font-weight: 700;
+
+}
+
+#txt-qty {
+    position: absolute;
+    top: 42%;
+    left: 15%;
+    font-weight: 800;
+}
+
+#btn-clear {
+    position: absolute;
+    top: 48%;
+    left: 25.7%;
+    border-radius: 7px;
+    font-weight: 800;
+
+}
+
+#btn-add {
+    position: absolute;
+    top: 48%;
+    left: 31%;
+    border-radius: 7px;
+    font-weight: 800;
+
+}
+
+#img-burger-id {
+    position: absolute;
+    left: 5%;
+    top: 59%;
+
+}
+
+.food-imgs-cls {
+    width: 10%;
+    height: 110px;
+    border-radius: 30px;
+
+}
+
+#img-submarine-id {
+    position: absolute;
+    left: 18%;
+    top: 59%;
+
+}
+
+#img-fries-id {
+    position: absolute;
+    left: 31%;
+    top: 59%;
+
+}
+
+#img-pasta-id {
+    position: absolute;
+    left: 5%;
+    top: 78%;
+
+}
+
+#img-chicken-id {
+    position: absolute;
+    left: 18%;
+    top: 78%;
+
+}
+
+#img-drinks-id {
+    position: absolute;
+    left: 31%;
+    top: 78%;
+
+}
+
+#lbl-burger {
+    position: absolute;
+    left: 6.7%;
+    top: 73.1%;
+    font-size: 25px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+
+}
+
+#lbl-submarine {
+    position: absolute;
+    left: 18.5%;
+    top: 73.1%;
+    font-size: 25px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+
+}
+
+#lbl-fries {
+    position: absolute;
+    left: 34%;
+    top: 73.1%;
+    font-size: 25px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+
+}
+
+#lbl-pasta {
+    position: absolute;
+    left: 7%;
+    top: 91.7%;
+    font-size: 25px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+
+}
+
+#lbl-chicken {
+    position: absolute;
+    left: 18.9%;
+    top: 91.7%;
+    font-size: 25px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+#lbl-drinks {
+    position: absolute;
+    left: 32%;
+    top: 91.7%;
+    font-size: 25px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+
+}
+
+#bill-area {
+    width: 54%;
+    height: 500px;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    background-color: rgba(147, 153, 120, 1);
+    border-radius: 40px;
+
+}
+
+#bill-area-titlebar{
+    position: absolute;
+    right: 2.5%;
+    top: 29%;
+    width: 53%;
+    height: 34px;
+    background-color: rgba(86, 69, 69, 1);
+    border-radius: 11px;
+}
+
+.lbl-bill{
+    position: absolute;
+    top: 29.1%;
+    font-size: 22px;
+    font-family: century;
+    font-weight: 600;
+    color: white;
+}
+
+#lbl-bill-no{
+    left: 46%;
+}
+#lbl-bill-name{
+    left: 52%;
+}
+#lbl-bill-qty{
+    left: 63%;
+}
+#lbl-bill-discount{
+    left: 69%;
+}
+#lbl-bill-amount{
+    left: 81%;
+}#lbl-bill-option{
+    left: 92%;
+}
+
+.imgs-dropdown{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+}
+#img-dropdown-one{
+    left: 12.5%;
+    top: 74%;
+}
+#img-dropdown-two{
+    left: 27%;
+    top: 74%;
+}
+#img-dropdown-three{
+    left: 38%;
+    top: 74%;
+}
+#img-dropdown-four{
+    left: 12.5%;
+    top: 93%;
+}
+#img-dropdown-five{
+    left: 25.5%;
+    top: 93%;
+}
+#img-dropdown-six{
+    left: 40%;
+    top: 93%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
